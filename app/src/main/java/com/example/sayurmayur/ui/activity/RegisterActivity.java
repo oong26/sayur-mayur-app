@@ -69,7 +69,7 @@ public class RegisterActivity extends AppCompatActivity {
     private void initView() {
         editNama = findViewById(R.id.edit_nama);
         editUsername = findViewById(R.id.edit_username);
-        editPassword = findViewById(R.id.edit_phone);
+        editPhone = findViewById(R.id.edit_phone);
         editPassword = findViewById(R.id.edit_password);
         tvLogin = findViewById(R.id.tv_sudah_punya_akun);
         btnRegister = findViewById(R.id.btn_register);

@@ -8,91 +8,97 @@
     android:id="@+id/swipe_container"
     android:padding="10dp">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/tv1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Terbaru"
-            android:textColor="@android:color/black"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <RelativeLayout
-            android:id="@+id/new_resep_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/tv1">
-
-            <ProgressBar
-                android:id="@+id/progress_new_resep"
-                style="?android:attr/progressBarStyle"
-                android:layout_centerInParent="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rv_new_resep"
-                android:layout_marginTop="15dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/row_favorit"
-                tools:itemCount="3" />
-
-        </RelativeLayout>
-
-        <TextView
-            android:id="@+id/tv2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/new_resep_layout"
-            android:layout_marginTop="30dp"
-            android:text="Resep"
-            android:textColor="@android:color/black"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tv3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_alignParentEnd="true"
-            android:layout_below="@id/new_resep_layout"
-            android:layout_marginEnd="16dp"
-            android:text="Selengkapnya"
-            android:textColor="@android:color/darker_gray"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+        android:layout_height="match_parent">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/tv2">
+            android:layout_height="wrap_content">
 
-            <ProgressBar
-                android:id="@+id/progress_resep"
-                style="?android:attr/progressBarStyle"
-                android:layout_centerInParent="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rv_kategori"
+            <TextView
+                android:id="@+id/tv1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:itemCount="4"
-                tools:listitem="@layout/row_recipe_home"/>
+                android:text="Terbaru"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/new_resep_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv1">
+
+                <ProgressBar
+                    android:id="@+id/progress_new_resep"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_new_resep"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/row_favorit"
+                    tools:itemCount="3" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/new_resep_layout"
+                android:layout_marginTop="30dp"
+                android:text="Resep"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/new_resep_layout"
+                android:layout_marginEnd="16dp"
+                android:text="Selengkapnya"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv2">
+
+                <ProgressBar
+                    android:id="@+id/progress_resep"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_kategori"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="4"
+                    tools:listitem="@layout/row_recipe_home"/>
+
+            </RelativeLayout>
 
         </RelativeLayout>
 
-    </RelativeLayout>
+    </ScrollView>
 
 </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

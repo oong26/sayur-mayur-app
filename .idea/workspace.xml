@@ -12,65 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29b26a91-391f-48db-ac88-81f8c1c37cae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/model/GetIngredients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/model/Ingredients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/adapter/IngredientsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/fragment/RecipeFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/footer_splash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_fastfood_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_person_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_register1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_register2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_ingredient.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/kataku/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sayurmayur/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/core/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/core/ApiClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/core/ApiInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/core/ApiInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/core/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/core/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/model/Buku.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/model/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/model/CekIsFavorit.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/model/CekIsFavorit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/model/GetBuku.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/model/GetRecipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/model/GetKategoriBuku.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/model/KategoriBuku.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/model/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/model/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/model/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/model/TambahHapusFavorit.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/model/TambahHapusFavorit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/activity/BookActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/activity/FavoritActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/activity/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/activity/DetailActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/activity/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/activity/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/activity/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/activity/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/activity/RegisterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/activity/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/activity/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/adapter/BukuAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/adapter/KategoriBukuAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/adapter/RecipeHomeAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/adapter/TerfavoritAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/adapter/NewerRecipeAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/fragment/BookFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/fragment/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/fragment/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kataku/ui/fragment/PengaturanFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/fragment/PengaturanFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_book.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_favorit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/core/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/core/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/activity/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sayurmayur/ui/activity/RegisterActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_katalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_recipe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pengaturan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pengaturan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_favorit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_favorit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_kategori.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_recipe_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/kataku/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/sayurmayur/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,38 +212,38 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="349" y="158" key="FileChooserDialogImpl/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626337236064" />
-    <state width="1091" height="188" key="GridCell.Tab.0.bottom" timestamp="1626548158991">
+    <state width="1094" height="188" key="GridCell.Tab.0.bottom" timestamp="1626616776496">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1091" height="188" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626548158991" />
-    <state width="1091" height="188" key="GridCell.Tab.0.center" timestamp="1626548158990">
+    <state width="1094" height="188" key="GridCell.Tab.0.bottom/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626616776496" />
+    <state width="1094" height="188" key="GridCell.Tab.0.center" timestamp="1626616776494">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1091" height="188" key="GridCell.Tab.0.center/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626548158990" />
-    <state width="1091" height="188" key="GridCell.Tab.0.left" timestamp="1626548158990">
+    <state width="1094" height="188" key="GridCell.Tab.0.center/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626616776494" />
+    <state width="1094" height="188" key="GridCell.Tab.0.left" timestamp="1626616776487">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1091" height="188" key="GridCell.Tab.0.left/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626548158990" />
-    <state width="1091" height="188" key="GridCell.Tab.0.right" timestamp="1626548158990">
+    <state width="1094" height="188" key="GridCell.Tab.0.left/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626616776487" />
+    <state width="1094" height="188" key="GridCell.Tab.0.right" timestamp="1626616776496">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1091" height="188" key="GridCell.Tab.0.right/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626548158990" />
-    <state width="1084" height="238" key="GridCell.Tab.1.bottom" timestamp="1626546070132">
+    <state width="1094" height="188" key="GridCell.Tab.0.right/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626616776496" />
+    <state width="1084" height="238" key="GridCell.Tab.1.bottom" timestamp="1626549041550">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1084" height="238" key="GridCell.Tab.1.bottom/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626546070132" />
-    <state width="1084" height="238" key="GridCell.Tab.1.center" timestamp="1626546070131">
+    <state width="1084" height="238" key="GridCell.Tab.1.bottom/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626549041550" />
+    <state width="1084" height="238" key="GridCell.Tab.1.center" timestamp="1626549041550">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1084" height="238" key="GridCell.Tab.1.center/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626546070131" />
-    <state width="1084" height="238" key="GridCell.Tab.1.left" timestamp="1626546070131">
+    <state width="1084" height="238" key="GridCell.Tab.1.center/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626549041550" />
+    <state width="1084" height="238" key="GridCell.Tab.1.left" timestamp="1626549041550">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1084" height="238" key="GridCell.Tab.1.left/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626546070131" />
-    <state width="1084" height="238" key="GridCell.Tab.1.right" timestamp="1626546070131">
+    <state width="1084" height="238" key="GridCell.Tab.1.left/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626549041550" />
+    <state width="1084" height="238" key="GridCell.Tab.1.right" timestamp="1626549041550">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1084" height="238" key="GridCell.Tab.1.right/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626546070131" />
+    <state width="1084" height="238" key="GridCell.Tab.1.right/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626549041550" />
     <state x="298" y="0" width="1188" height="832" key="SettingsEditor" timestamp="1626329942601">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -308,10 +256,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="384" y="194" key="chooseDestDirectoryDialog/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626511313395" />
-    <state x="94" y="100" width="925" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1626538327458">
+    <state x="94" y="100" width="925" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1626615928850">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="94" y="100" width="925" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626538327458" />
+    <state x="94" y="100" width="925" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626615928850" />
     <state x="256" y="0" width="784" height="832" key="find.popup" timestamp="1626514719893">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -320,9 +268,9 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="230" y="191" key="run.anything.popup/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626544354088" />
-    <state x="234" y="153" width="672" height="678" key="search.everywhere.popup" timestamp="1626548544539">
+    <state x="234" y="153" width="672" height="678" key="search.everywhere.popup" timestamp="1626616804299">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="234" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626548544539" />
+    <state x="234" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832/-1920.0.1920.1080@0.0.1536.832" timestamp="1626616804299" />
   </component>
 </project>
